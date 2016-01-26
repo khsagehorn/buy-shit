@@ -1,6 +1,4 @@
-img {
-    width: 90%;
-}
+
 footer {
     background: #474747;
     color: #ffffff;
@@ -32,4 +30,10 @@ footer ul li a:hover {
     width: 30px;
     height: 30px;
     display: inline-block;
+}
+img{
+  width: 90%;
+  margin-top: 15%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
