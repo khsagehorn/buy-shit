@@ -26,6 +26,25 @@ $(".digitalBtn").click(function(){
       $(".digital").show();
       
 });
+<<<<<<< HEAD
+=======
+
+$(".allBtn").click(function(){
+      $(".analog").show();
+      $(".digital").show();
+      $(".metal").show();
+      $(".wood").show();
+      
+});
+
+
+
+ 
+ 
+
+//end Tommy's JS
+
+>>>>>>> refs/remotes/origin/master
 
 $(".allBtn").click(function(){
       $(".analog").show();
