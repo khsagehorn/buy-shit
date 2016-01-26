@@ -1,25 +1,9 @@
-$("document").ready(function (e){
+$("document").ready(function (){
 
-<<<<<<< HEAD
-=======
-  function validateEmail(email){
-    var re = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    return re.test(email);
-  }
-
-  function validate(){
-  $("#result").text("");
-  var email = $("#email").val();
-  if (validateEmail(email)) {
-    alert("Successfully submitted, spam emails coming now.");
-  } else {
-    alert("Not an email!");
-  }
-  return false;
-}
-
-$("form").bind("submit", validate);
-
+  $( "#submit" ).click(function() {
+    event.preventDefault();
+    alert( "Email taken" );
+});
 
 
 //start Tommy's JS
@@ -66,11 +50,3 @@ $(".digitalBtn").click(function(){
       console.log("test");
 });
 //end Tommy's JS
-
-
-
-
-
-
->>>>>>> c3d1237f9ff0f03967d3c12e9ac7bc1c2833cef3
-});
