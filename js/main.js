@@ -1,24 +1,4 @@
-$("document").ready(function (e){
-
-  function validateEmail(email){
-    var re = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    return re.test(email);
-  }
-
-  function validate(){
-  $("#result").text("");
-  var email = $("#email").val();
-  if (validateEmail(email)) {
-    alert("Successfully submitted, spam emails coming now.");
-  } else {
-    alert("Not an email!");
-  }
-  return false;
-}
-
-$("form").bind("submit", validate);
-
-
+$("document").ready(function (){
 
 //start Tommy's JS
 
@@ -46,6 +26,8 @@ $(".digitalBtn").click(function(){
       $(".digital").show();
       
 });
+<<<<<<< HEAD
+=======
 
 $(".allBtn").click(function(){
       $(".analog").show();
@@ -62,9 +44,19 @@ $(".allBtn").click(function(){
 
 //end Tommy's JS
 
+>>>>>>> refs/remotes/origin/master
 
-
-
-
-
+$(".allBtn").click(function(){
+      $(".analog").show();
+      $(".digital").show();
+      $(".metal").show();
+      $(".wood").show();
+      
 });
+
+
+
+ 
+ 
+
+//end Tommy's JS
