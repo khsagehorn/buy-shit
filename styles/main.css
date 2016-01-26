@@ -5,6 +5,7 @@ img{
   margin-right: 5%;
   margin-left: 5%;
   height: 200px;
+ 
 }
 footer {
     background: #474747;
@@ -64,4 +65,23 @@ img {
 #purchase:hover {
     color: #ffffff;
     background: #000;
+}
+
+.productBtn button{
+    width: 80%;
+    height: 35px;
+    background-color: #474747;
+    color: #ffffff;
+    margin-left: 10%;
+
+}
+
+.productBtn button:hover{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: #ffffff;
+    
+    
+
 }
