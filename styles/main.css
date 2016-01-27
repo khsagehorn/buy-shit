@@ -85,13 +85,13 @@ img {
     color: #ffffff;
 }
 
-.form-group{
+.email{
     margin-top: 5%;
     margin-bottom: 5%;
     min-height: 40%;
 }
 
-form{
+.signUp{
     background-color: red;
 }
 
