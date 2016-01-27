@@ -1,7 +1,7 @@
 $("document").ready(function (e){
 
   $( ".form-horizontal" ).on("submit", function(e) {
-    alert("Email Accepted, Spam Coming now");
+    alert("Email Accepted, Spam Coming from Cwatch");
 
   });
 
