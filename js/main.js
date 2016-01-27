@@ -22,7 +22,7 @@ $(".analogBtn").click(function(){
         $(".digital").fadeOut("slow");
         $(".analog").show();
       
-}); 
+});
 
 $(".digitalBtn").click(function(){
       $(".analog").fadeOut("slow");
@@ -37,3 +37,9 @@ $(".allBtn").click(function(){
       $(".wood").fadeIn("slow");
       
 });
+
+
+});
+
+
+
