@@ -29,17 +29,63 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./index.html">Home <span class="sr-only">(current)</span></a></li>
+        
+        <li><a href="./home.html">Home</a></li>
         
         <li><a href="./products.html">Products</a></li>
-        
-        <li><a href="./checkout.html">Checkout</a></li>
+        <li class="active"><a href="./checkout.html">Checkout<span class="sr-only">(current)</span></a></li>
       </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"></span> 7 - Items<span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-cart" role="menu">
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="http://lorempixel.com/50/50/" alt="" />
+                        <span class="item-info">
+                            <span>Item name</span>
+                            <span>23$</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-xs btn-danger pull-right">x</button>
+                    </span>
+                </span>
+              </li>
+            </ul>
+         </li>
+        </ul>
 
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
+<center><h1>A Simple Shopping Cart</h1></center>
+
+<form method="post" name="orderform" action="mailto:me@mydomain.com" enctype="text/plain">
+<table border="0">
+    <tr><td colspan="4">
+<p><input type="checkbox" name="Item1" value="Item1_chosen" onclick="tally()"> Item One ($26.15)
+<p><input type="checkbox" name="Item2" value="Item2_chosen" onclick="tally()"> Item Two  ($26.10)
+<p><input type="checkbox" name="Item3" value="Item3_chosen" onclick="tally()"> Item Three  ($26)
+<p><input type="checkbox" name="Item4" value="Item4_chosen" onclick="tally()"> Item Four  ($26)
+<p><input type="checkbox" name="Item5" value="Item5_chosen" onclick="tally()"> Item Five  ($26.44)
+<p><input type="checkbox" name="Item6" value="Item6_chosen" onclick="tally()"> Item Six  ($26.10)
+<p><input type="checkbox" name="Item7" value="Item7_chosen" onclick="tally()"> Item Seven  ($26)
+<p><input type="checkbox" name="Item8" value="Item8_chosen" onclick="tally()"> Item Eight  ($26)
+<p><input type="checkbox" name="Item9" value="Item9_chosen" onclick="tally()"> Item Nine  ($25)
+    </td></tr>
+<tr>
+<td> Total <input type="text" name="Total" value="$0" size="7"></td>
+<td> PST (7%) <input type="text" name="PST" value="$0"  size="6"></td>
+<td colspan="2"> GST (7%) <input type="text" name="GST" value="$0"  size="6"></td>
+</tr>
+<tr>
+<td> Grand Total <input type="text" name="GrandTotal" value="$0" size="8"></td>
+</tr>
+
+<!-- Checkout Info-->
 <section class="row" id="checkoutHead">
   <div class="container">
       <h1>Checkout</h1>
