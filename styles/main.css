@@ -110,20 +110,19 @@ img {
 #slides {
     padding-bottom: 40px;
 }
-.signUp{
-    background-color: red;
-}
 
-    padding-top: 40px;
-    font-weight: bold;
-    background: url("../img/street.jpg");
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 300px;
-    color: #000000;
+
+.signUp{
+   padding-top: 40px;
+   font-weight: bold;
+   background: url("../img/street.jpg");
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   height: 300px;
+   color: #000000 ;
 }
 
 #signUpButton:hover {
