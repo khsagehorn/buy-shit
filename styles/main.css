@@ -83,26 +83,17 @@ img {
     height: 50px;
     background-color: #b30000;
     color: #ffffff;
-<<<<<<< HEAD
-
-
-=======
 }
->>>>>>> master
 
-.form-group{
+.email{
     margin-top: 5%;
     margin-bottom: 5%;
     min-height: 40%;
 }
-
-<<<<<<< HEAD
 .camera_wrap div{
     height: 250px;
 }
-=======
-form{
+.signUp{
     background-color: red;
 }
 
->>>>>>> master
