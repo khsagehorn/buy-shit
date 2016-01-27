@@ -147,13 +147,13 @@
     <div class="col-md-3 col-sm-3 col-sm-offset-1 col-md-offset-1">
       <div class="form-group">
         <label for="zipCode">Zip Code</label>
-        <input type="text" id="zipCode" class="form-control" placeholder="Enter in zip">
+        <input type="text" id="zipCode" class="form-control" placeholder="Enter in zip" name="shippingZipCode">
       </div>
     </div>
     <div class="col-md-3 col-sm-3 col-md-offset-1 col-sm-offset-1">
       <div class="radio">
         <label>
-          <input type="radio" id="moveInfo"  value="moveInfo">
+          <input type="radio" id="moveInfo" name="radioClick"  value="moveInfo">
           <i>Copy Shipping to Billing?</i>
         </label>
       </div>
@@ -168,19 +168,19 @@
       <div class="col-md-3 col-sm-3">
         <div class="form-group">
           <label form="bfirstName">First Name:</label>
-          <input id="bfirstName" class="form-control" type="text" placeholder="First Name">
+          <input id="bfirstName" class="form-control" type="text" placeholder="First Name" name="billingFirstName">
         </div>
       </div>
       <div class="col-md-3 col-sm-3 col-sm-offset-1 col-md-offset-1">
         <div class="form-group">
           <label for="blastName">Last Name:</label>
-          <input type="text" id="blastName" class="form-control" placeholder="Last Name">
+          <input type="text" id="blastName" class="form-control" placeholder="Last Name" name="billingLastName">
         </div>
       </div>
       <div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1">
         <div class="form-group">
           <label for="bcompany">Company</label>
-          <input type="text" id="bcompany" class="form-control" placeholder="Company name">
+          <input type="text" id="bcompany" class="form-control" placeholder="Company name" name="billingLastName">
         </div>
       </div>
     </div>
@@ -190,13 +190,13 @@
       <div class="col-md-5 col-sm-5">
         <div class="form-group">
           <label for="baddLine1">Address Line 1</label>
-          <input type="text" id="baddLine1" class="form-control" placeholder="Address">
+          <input type="text" id="baddLine1" class="form-control" placeholder="Address" name="billingAddress1">
         </div>
       </div>
       <div class="col-md-5 col-sm-5 col-sm-offset-1 col-md-offset-1">
         <div class="form-group">
           <label for="baddLine2">Address Line 2</label>
-          <input type="text" id="baddLine2" class="form-control" placeholder="address line 2">
+          <input type="text" id="baddLine2" class="form-control" placeholder="address line 2" name="billingAddress2">
         </div>
       </div>
     </div>
@@ -332,5 +332,6 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/npm.js"></script>
+  <script type="text/javascript" src="js/checkout.js"></script>
 </body>
 </html>
