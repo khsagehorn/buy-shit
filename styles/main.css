@@ -80,7 +80,11 @@ img {
     height: 50px;
     background-color: red;
     color: #ffffff;
-    
-    
 
+
+
+}
+
+.camera_wrap div{
+    height: 250px;
 }

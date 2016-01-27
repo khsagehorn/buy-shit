@@ -63,7 +63,12 @@ $(".allBtn").click(function(){
 //end Tommy's JS
 
 
+    $('.camera_wrap').camera({ //here I declared some settings, the height and the presence of the thumbnails
 
+        height: '250',
+        pagination: false,
+        thumbnails: false
+    });
 
 
 
