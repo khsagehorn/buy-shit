@@ -84,3 +84,14 @@ img {
     background-color: #b30000;
     color: #ffffff;
 }
+
+.form-group{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    min-height: 40%;
+}
+
+form{
+    background-color: red;
+}
+
