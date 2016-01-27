@@ -1,6 +1,5 @@
 $(document).on('ready', function() {
 
-
   var $input = $("#moveInfo");
   console.log($input)
 
@@ -31,5 +30,8 @@ $(document).on('ready', function() {
     }
 });
  
+ 
+
+
 
 });
