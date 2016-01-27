@@ -23,35 +23,35 @@ $("form").bind("submit", validate);
 //start Tommy's JS
 
 
-    $(".woodBtn").click(function(){
-      $(".metal").hide();
-      $(".wood").show();
+$(".woodBtn").click(function(){
+        $(".metal").fadeOut("slow");
+        $(".wood").show();
       
 });
      
-     $(".metalBtn").click(function(){
-      $(".wood").hide();
-      $(".metal").show();
+$(".metalBtn").click(function(){
+        $(".wood").fadeOut("slow");
+        $(".metal").show();
       
 }); 
 
-     $(".analogBtn").click(function(){
-      $(".digital").hide();
-      $(".analog").show();
+$(".analogBtn").click(function(){
+        $(".digital").fadeOut("slow");
+        $(".analog").show();
       
 }); 
 
 $(".digitalBtn").click(function(){
-      $(".analog").hide();
+      $(".analog").fadeOut("slow");
       $(".digital").show();
       
 });
 
 $(".allBtn").click(function(){
-      $(".analog").show();
-      $(".digital").show();
-      $(".metal").show();
-      $(".wood").show();
+      $(".analog").fadeIn("slow");
+      $(".digital").fadeIn("slow");
+      $(".metal").fadeIn("slow");
+      $(".wood").fadeIn("slow");
       
 });
 
