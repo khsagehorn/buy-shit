@@ -147,3 +147,16 @@ img {
     margin: auto;
 }
 
+#socialIcons {
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+#socialIcons i {
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+#socialIcons i:hover {
+    color: red;
+    cursor: pointer;
+}
