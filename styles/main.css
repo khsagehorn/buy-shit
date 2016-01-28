@@ -130,3 +130,11 @@ img {
     background: #000;
     border: #000000;
 }
+
+.center{
+  text-align: center;
+}
+
+.featured{
+  max-width: 70%;
+}
