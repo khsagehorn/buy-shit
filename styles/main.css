@@ -16,6 +16,7 @@ img{
 footer {
     background: #474747;
     color: #ffffff;
+    padding: 20px;
 }
 footer ul {
     padding: 0;
@@ -137,4 +138,11 @@ img {
 
 .featured{
   max-width: 70%;
+}
+
+#map_canvas {
+    width: 250px;
+    height: 175px;
+    display: block;
+    margin: auto;
 }
